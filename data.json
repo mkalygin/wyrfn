@@ -1,10 +1,14 @@
 [
   {
     "name":  "mkalygin",
-    "repos": ["taxystem"]
+    "repos": ["mkalygin/taxystem"]
+  },
+  {
+    "name":  "gnykka",
+    "repos": ["mkalygin/taxystem"]
   },
   {
     "name":  "AdamBien",
-    "repos": ["docklands"]
+    "repos": ["AdamBien/docklands"]
   }
 ]

@@ -1,10 +1,10 @@
 [
   {
-    "username": "mkalygin",
-    "repos":    ["taxystem"]
+    "name":  "mkalygin",
+    "repos": ["taxystem"]
   },
   {
-    "username": "AdamBien",
-    "repos":    ["docklands"]
+    "name":  "AdamBien",
+    "repos": ["docklands"]
   }
 ]

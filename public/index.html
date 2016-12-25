@@ -2,25 +2,12 @@
 <html>
 <head>
   <title>What's your rating fucking noob?</title>
+  <link rel="stylesheet" href="/css/main.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.4.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/jquery.canvasjs.min.js"></script>
+  <script src="/js/main.js"></script>
 </head>
 <body>
-  <h1>What's your rating fucking noob?</h1>
+  <div id="chart"></div>
 </body>
-<script type="text/javascript">
-  function renderRatingPlot(data) {
-    console.log(data);
-  }
-
-  $(function () {
-    $.get('/data')
-      .done(function (data) {
-        renderRatingPlot(data);
-      })
-      .fail(function (error) {
-        alert(error.responseText);
-      });
-  });
-</script>
 </html>

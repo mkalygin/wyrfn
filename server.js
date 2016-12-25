@@ -17,22 +17,11 @@ app.get('/data', function (req, res, next) {
     var usersData = JSON.parse(json);
 
     res.json([
-      {
-        username: 'mkalygin',
-        repos: [
-          { name: 'lol', contributions: 1 },
-          { name: 'rofl', contributions: 2 },
-          { name: 'wtf', contributions: 3 }
-        ]
-      },
-      {
-        username: 'gnykka',
-        repos: [
-          { name: 'lol', contributions: 3 },
-          { name: 'rofl', contributions: 2 },
-          { name: 'wtf', contributions: 1 }
-        ]
-      }
+      { name: 'one', score: 1 },
+      { name: 'two', score: 3 },
+      { name: 'three', score: 7 },
+      { name: 'four', score: 4 },
+      { name: 'five', score: 9 }
     ]);
   });
 });

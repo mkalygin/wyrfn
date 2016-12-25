@@ -1,0 +1,18 @@
+{
+  "name": "wyrfn",
+  "version": "1.0.0",
+  "description": "What's your rating fucking noob?",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test":  "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Kalygin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

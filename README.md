@@ -1,5 +1,7 @@
 # WYRFN - What's Your Rating Fucking Noob?
 
+![WYRFN Demo](images/demo.png)
+
 ## Overview
 
 This is a static page with dynamic rating of GitHub contributors.

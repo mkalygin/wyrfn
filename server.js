@@ -6,12 +6,18 @@ var DEFAULT_PORT      = 1337;
 var PUBLIC_DIR_PATH   = __dirname + '/public';
 var DATA_JSON_PATH    = __dirname + '/data.json';
 var GITHUB_TOKEN_PATH = __dirname + '/.token';
-var GITHUB_TOKEN      = getGitHubToken(GITHUB_TOKEN_PATH);
+var GITHUB_TOKEN      = process.env.GITHUB_AUTH_TOKEN ||
+                        getGitHubToken(GITHUB_TOKEN_PATH);
 var NUM_SINCE_DAYS    = 21;
 
 // Gets GitHub token from special token file.
 function getGitHubToken(path) {
-  return fs.readFileSync(path, 'utf8').trim();
+  try {
+    return fs.readFileSync(path, 'utf8').trim();
+  } catch (err) {
+    console.error('Please put .token file into the root of the repo or define ' +
+                  'GITHUB_AUTH_TOKEN environment variable with GitHub auth token.');
+  }
 }
 
 // Fetches number of contributions to repos by these users from GitHub API.

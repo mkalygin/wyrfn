@@ -8,3 +8,17 @@ on weekly basis and put in a table.
 The page is designed to motivate its author to work more on
 pet projects and be as productive as one of the best programmers in the world.
 After all, what's your rating fucking noob? Go and get shit done!
+
+# Usage
+
+- Put `.token` file into the root of the repo or define GITHUB_AUTH_TOKEN
+environment variable.
+- Edit `data.json` in order to setup contributors and repos to measure.
+- Run `npm start` and open `http://localhost:1337` in your browser.
+
+# Development
+
+```
+npm install
+npm start
+```

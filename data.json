@@ -8,7 +8,27 @@
     "repos": ["mkalygin/taxystem"]
   },
   {
-    "name":  "AdamBien",
-    "repos": ["AdamBien/docklands"]
+    "name":  "tj",
+    "repos": ["apex/apex"]
+  },
+  {
+    "name":  "una",
+    "repos": ["una/una.github.io"]
+  },
+  {
+    "name":  "walkor",
+    "repos": ["walkor/Workerman", "walkor/workerman.net"]
+  },
+  {
+    "name":  "mli",
+    "repos": ["dmlc/mxnet"]
+  },
+  {
+    "name":  "bkeepers",
+    "repos": ["bkeepers/PRobot"]
+  },
+  {
+    "name":  "juliangruber",
+    "repos": ["datproject/dat", "datproject/dat-desktop"]
   }
 ]

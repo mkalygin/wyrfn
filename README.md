@@ -4,6 +4,8 @@
 
 ## Overview
 
+**DISCLAIMER: The author doesn't think that number of commits is a good metric to measure programmer's productivity. It is used only for reference and motivation.**
+
 This is a static page with dynamic rating of GitHub contributors.
 Some of [the most active GitHub users](https://gist.github.com/paulmillr/2657075/)
 are chosen + author of this repo. Their activity on particular repos is measured
